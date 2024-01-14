@@ -195,7 +195,7 @@ const News = (props) => {
 
     useEffect(() => {
         updateNews();
-    });
+    },[]);
 
     // handleNextClick = async () => {
     //     if (page + 1 <= (Math.ceil(totalResults / props.pageSize))) {
